@@ -20,7 +20,7 @@ export default function ListaCliente(props) {
     new Cliente("Caio","Caio", "5555555555", "CPF1", "ASD1"),
     new Cliente("Antônio", "Antônio", "222222222", "CPF2", "ASD2"),
     new Cliente("Julia", "Julia", "111111111", "CPF1", "ASD1"),
-    new Cliente("Katia", "KAtia", "999999999", "CPF2", "ASD2"),
+    new Cliente("Katia", "Katia", "999999999", "CPF2", "ASD2"),
   ]);
   const [editingClient, setEditingClient] = useState({ nome: "", raça: "" });
   const [editingClientIndex, setEditingClientIndex] = useState(0);
@@ -76,7 +76,7 @@ export default function ListaCliente(props) {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Cliente"
+                  placeholder="(Nome completo)"
                   value={editingClient.nome}
                   aria-label="Cliente"
                   aria-describedby="basic-addon1"
@@ -88,7 +88,7 @@ export default function ListaCliente(props) {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Nome Social"
+                  placeholder="(Nome Social)"
                   value={editingClient.nomeSocial}
                   aria-label="Nome Social"
                   aria-describedby="basic-addon1"
@@ -107,7 +107,7 @@ export default function ListaCliente(props) {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="E-mail"
+                  placeholder="(E-mail)"
                   value={editingClient.email}
                   aria-label="E-mail"
                   aria-describedby="basic-addon1"
@@ -142,8 +142,9 @@ export default function ListaCliente(props) {
                 </label>
                 <select id="inputState" className="form-select">
                   <option selected>Escolha uma opção...</option>
-                  <option>Pet1</option>
-                  <option>Pet2</option>
+                  <option>Pet 1</option>
+                  <option>Pet 2</option>
+                  <option>Pet 3</option>
                 </select>
               </div>
               <div className="col-md-3">

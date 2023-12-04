@@ -46,16 +46,16 @@ export default function Pagamento(props) {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">***</th>
-            <td>***</td>
-            <td>***</td>
-            <td>***</td>
+            <th scope="row">Produto 1</th>
+            <td>Nome do Pet</td>
+            <td>0</td>
+            <td>R$ 00.00</td>
           </tr>
           <tr>
-            <th scope="row">***</th>
-            <td>***</td>
-            <td>***</td>
-            <td>***</td>
+            <th scope="row">Produto 2</th>
+            <td>Nome do Pet</td>
+            <td>0</td>
+            <td>R$ 00.00</td>
           </tr>
         </tbody>
       </table>
@@ -70,16 +70,16 @@ export default function Pagamento(props) {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">***</th>
-            <td>***</td>
-            <td>***</td>
-            <td>***</td>
+            <th scope="row">Serviço 1</th>
+            <td>Nome do Pet</td>
+            <td>0</td>
+            <td>R$ 00.00</td>
           </tr>
           <tr>
-            <th scope="row">***</th>
-            <td>***</td>
-            <td>***</td>
-            <td>***</td>
+            <th scope="row">Serviço 2</th>
+            <td>Nome do Pet</td>
+            <td>0</td>
+            <td>R$ 00.00</td>
           </tr>
         </tbody>
       </table>

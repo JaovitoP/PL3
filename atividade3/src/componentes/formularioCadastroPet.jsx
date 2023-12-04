@@ -76,7 +76,6 @@ export default function FormularioCadastroPet(props) {
           >
             <option selected>Escolha uma opção...</option>
             <option value="Cachorro">Cachorro</option>
-            <option>Cachorro</option>
             <option>Gato</option>
             <option>Peixe</option>
             <option>Hamster</option>

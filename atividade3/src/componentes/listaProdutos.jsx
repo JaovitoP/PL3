@@ -13,8 +13,11 @@ export default function Produtos(props) {
 
   const [edit, setEdit] = useState(false);
   const [produtos, setProdutos] = useState([
-    new Produto("Produto1", "25"),
-    new Produto("Produto2", "25"),
+    new Produto("Produto 1", "50"),
+    new Produto("Produto 2", "30"),
+    new Produto("Produto 3", "15"),
+    new Produto("Produto 4", "10"),
+    new Produto("Produto 5", "05")
   ]);
   const [editingProduto, setEditingProduto] = useState(0);
   const [editingProdutoIndex, setEditingProdutoIndex] = useState(0);
@@ -64,7 +67,7 @@ export default function Produtos(props) {
         >
           <div className="accordion-body">
             <div className="input-group mt-3">
-              <span className="input-group-text">R$</span>
+              <span className="input-group-text" style={{ background: tema }}>R$</span>
               <input
                 type="text"
                 className="form-control"
@@ -115,9 +118,10 @@ export default function Produtos(props) {
           />
         </div>
         <div className="input-group mb-3">
-          <span className="input-group-text">R$</span>
+          <span className="input-group-text" style={{ background: tema }}>R$</span>
           <input
             type="text"
+            placeholder="Preço"
             className="form-control"
             aria-label="Amount (to the nearest dollar)"
           />
@@ -142,16 +146,16 @@ export default function Produtos(props) {
       <h5>Produtos mais Consumidos em Quantidade</h5>
       <ul className="list-group">
         <li className="list-group-item">
-          <i className="bi bi-award-fill" style={{ fontSize: 20 }}></i> Produto1
+          <i className="bi bi-award-fill" style={{ fontSize: 20 }}></i> Produto 1
         </li>
         <li className="list-group-item">
-          <i className="bi bi-award-fill" style={{ fontSize: 20 }}></i> Produto2
+          <i className="bi bi-award-fill" style={{ fontSize: 20 }}></i> Produto 2
         </li>
         <li className="list-group-item">
-          <i className="bi bi-award-fill" style={{ fontSize: 20 }}></i> Produto3
+          <i className="bi bi-award-fill" style={{ fontSize: 20 }}></i> Produto 3
         </li>
-        <li className="list-group-item">Produto4</li>
-        <li className="list-group-item">Produto5</li>
+        <li className="list-group-item">Produto 4</li>
+        <li className="list-group-item">Produto 5</li>
       </ul>
       <br />
     </div>

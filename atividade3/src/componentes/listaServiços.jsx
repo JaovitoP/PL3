@@ -13,8 +13,11 @@ export default function Serviço(props) {
 
   const [edit, setEdit] = useState(false);
   const [serviços, setServiços] = useState([
-    new Servico("Servico1", "25"),
-    new Servico("Servico2", "25"),
+    new Servico("Servico 1", "80"),
+    new Servico("Serviço 2", "70"),
+    new Servico("Serviço 1", "50"),
+    new Servico("Serviço 2", "90"),
+    new Servico("Serviço 1", "10")
   ]);
   const [editingServiço, setEditingServiço] = useState(0);
   const [editingServiçoIndex, setEditingServiçoIndex] = useState(0);
@@ -64,7 +67,7 @@ export default function Serviço(props) {
         >
           <div className="accordion-body">
             <div className="input-group mt-3">
-              <span className="input-group-text">R$</span>
+              <span className="input-group-text" style={{ background: tema }}>R$</span>
               <input
                 type="text"
                 className="form-control"
@@ -115,9 +118,10 @@ export default function Serviço(props) {
           />
         </div>
         <div className="input-group mb-3">
-          <span className="input-group-text">R$</span>
+          <span className="input-group-text" style={{ background: tema }}>R$</span>
           <input
             type="text"
+            placeholder="Preço"
             className="form-control"
             aria-label="Amount (to the nearest dollar)"
           />
