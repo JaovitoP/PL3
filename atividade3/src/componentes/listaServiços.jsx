@@ -15,9 +15,9 @@ export default function Serviço(props) {
   const [serviços, setServiços] = useState([
     new Servico("Servico 1", "80"),
     new Servico("Serviço 2", "70"),
-    new Servico("Serviço 1", "50"),
-    new Servico("Serviço 2", "90"),
-    new Servico("Serviço 1", "10")
+    new Servico("Serviço 3", "50"),
+    new Servico("Serviço 4", "90"),
+    new Servico("Serviço 5", "10")
   ]);
   const [editingServiço, setEditingServiço] = useState(0);
   const [editingServiçoIndex, setEditingServiçoIndex] = useState(0);
