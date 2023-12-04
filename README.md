@@ -17,7 +17,11 @@ Abra o terminal e clone o repositório no local que sua preferência
 ~~~
 git clone https://github.com/JaovitoP/PetLovers.git
 ~~~
-Entre na pasta 'atividade2'
+Entre na pasta 'PL3'
+~~~
+cd PL3
+~~~
+Entre na pasta 'atividade3'
 ~~~
 cd atividade3
 ~~~
