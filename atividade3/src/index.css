@@ -1,0 +1,52 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF914D;
+}
+
+.pet-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  background-color: #FF914D;
+  height: 40px;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  border-radius: 20px;
+}
+a.nav-link{
+  color: #fff;
+}
+
+h5{
+  text-align: center;
+}
+.container-fluid{
+  margin-top: 1rem;
+}
+
+span.input-group-text{
+  color: #fff;
+}
+
+button.btn{
+  color: #fff;
+}
+
+button.input-group-text{
+  color:#fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .flex-center{
+    height: 0%;
+  }
+}
