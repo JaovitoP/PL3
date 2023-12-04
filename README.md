@@ -15,7 +15,7 @@
 ### Guia de execução
 Abra o terminal e clone o repositório no local que sua preferência
 ~~~
-git clone https://github.com/JaovitoP/PetLovers.git
+git clone https://github.com/JaovitoP/PL3.git
 ~~~
 Entre na pasta 'PL3'
 ~~~
